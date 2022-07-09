@@ -1,0 +1,138 @@
+body{
+    font-size: 20px;
+    font-family: monospace;
+    background-color:rgb(182, 182, 182);
+}
+
+#container{
+    margin : 20px auto;
+    background-color: white;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    top: 100px;
+}
+#start{
+    font-size: 1.5em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:100px;
+    height:150px;
+    border : 2px solid rgb(121, 69, 126);
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left:300px;
+    top:50px;
+    color : rgb(80, 159, 165);
+}
+#start:hover{
+    border: 3px solid rgb(160, 110, 189);
+    color : rgb(42, 214, 206);
+}
+
+#question{
+    width:500px;
+    height : 125px;
+    position: absolute;
+    right:100px;
+    top:0;
+}
+#question p{
+    margin : 0;
+    padding : 15px;
+    font-size: 1.25em;
+    text-align: center;
+    color: rgb(80, 159, 165);
+}
+
+#choices{
+    width : 480px;
+    position: absolute;
+    right : 100px;
+    top : 125px;
+    padding : 10px
+}
+.choice{
+    display: inline-block;
+    width : 135px;
+    text-align: center;
+    border : 1px solid rgb(121, 69, 126);
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+    color: rgb(80, 159, 165);
+}
+.choice:hover{
+    border : 2px solid rgb(160, 110, 189);
+    font-weight: bold;
+    color: rgb(42, 214, 206);
+}
+
+
+#scoreContainer{
+    margin : 20px auto;
+    background-color: white;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: none;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 30px;
+    color: rgb(42, 214, 206);
+}
+#scoreContainer p{
+    position: absolute;
+    display: block;
+    width : 59px;
+    height :59px;
+    top:130px;
+    left:325px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+#restart {
+    display: inline-block;
+    width : 135px;
+    text-align: center;
+    border : 1px solid rgb(121, 69, 126);
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+    color: rgb(80, 159, 165);
+}
+#restart:hover {
+    border : 2px solid rgb(160, 110, 189);
+    font-weight: bold;
+    color: rgb(42, 214, 206);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

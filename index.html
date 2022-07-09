@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="start">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div><span id="time">00:30</span></div>
+            <div id="question"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+        </div>
+        <div id="scoreContainer" style="display: none">Leaderboard!
+            <ul id="leaderboards"></ul>
+            <div id="restart">Click Here To Restart</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
