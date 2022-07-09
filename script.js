@@ -22,9 +22,9 @@ let questions = [
         correct : "great, let's get you set up"
     },{
         question : "Do you have a preference for language(s)?",
-        choiceA : "Two hundred",
-        choiceB : "Two hundred and six",
-        choiceC : "Too many",
+        choiceA : "Any language, surprise me",
+        choiceB : "A new language a day, please",
+        choiceC : "Yes, I do",
         correct : "B"
     },{
         question : "What was Marilyn Monroe's natural hair colour?",
