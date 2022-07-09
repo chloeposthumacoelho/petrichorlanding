@@ -15,13 +15,13 @@ let beginning;
 // create our questions
 let questions = [
     {
-        question : "How many legs does the Legs of Man have?",
-        choiceA : "1",
-        choiceB : "2",
-        choiceC : "3",
-        correct : "C"
+        question : "Welcome! How many new words would you like to learn?",
+        choiceA : "not sure",
+        choiceB : "2-10",
+        choiceC : "as many as I can!",
+        correct : "great, let's get you set up"
     },{
-        question : "How many bones does an adult human have?",
+        question : "Do you have a preference for language(s)?",
         choiceA : "Two hundred",
         choiceB : "Two hundred and six",
         choiceC : "Too many",
