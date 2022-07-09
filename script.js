@@ -27,10 +27,10 @@ let questions = [
         choiceC : "Yes, I do",
         correct : "B"
     },{
-        question : "What was Marilyn Monroe's natural hair colour?",
-        choiceA : "Blonde",
-        choiceB : "Brunette",
-        choiceC : "Ginger",
+        question : "Lets's get you started- would you like to enable notifications about your new words for the day?",
+        choiceA : "Yes, I would like to be notified",
+        choiceB : "No thank you",
+        choiceC : "Yes, but only ocasionally",
         correct : "C"
     },{
         question : "What did A.E. Frick invent in 1887, which are now worn by thousands if not millions of people?",
